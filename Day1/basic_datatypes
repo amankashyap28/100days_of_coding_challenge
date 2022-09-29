@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class basic_datatypes
+ {
+    public static void main(String[] args) 
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter all basic data types");
+        int i1=sc.nextInt();
+        System.out.println("interger data/1 "   +i1);
+        float i2=sc.nextFloat();
+        System.out.println("Float data/2 "  +i2);
+        char i3 = sc.next().charAt(0);
+        System.out.println("char  data/3 "  +i3);
+        double i4=sc.nextDouble();
+        System.out.println("double data/4 " +i4);
+        long i5=sc.nextLong();
+        System.out.println("long data/5" +i5);
+        short i6=sc.nextShort();
+        System.out.println("short data/6 " +i6);
+        boolean i7=sc.nextBoolean();
+        System.out.println("boolean data/7" +i7);
+        sc.close();
+
+        
+        
+    }
+}
+
