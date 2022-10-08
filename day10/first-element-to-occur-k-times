@@ -19,3 +19,8 @@ Your Task:
 You don't need to read input or print anything. 
 Your task is to complete the function firstElementKTime() which takes the array A[], its size N, and an integer K as inputs and returns the required answer. 
 If the answer is not present in the array, return -1.
+
+possiblites:-
+:-if that element not found.
+:-if only 1 number be inputting till the last time.
+
